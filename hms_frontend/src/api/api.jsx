@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/v1';
+const API_URL = 'https://advanced-hospital-management-system.vercel.app/';
 
 const api = axios.create({
     baseURL: API_URL,
